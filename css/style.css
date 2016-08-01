@@ -1,0 +1,127 @@
+.content-padding {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#detail-description {
+    font-size: 1.25rem;
+    line-height: 2.5625rem;
+    white-space: normal;
+}
+
+.icon-download {
+    width: 89px;
+    height: 73px;
+    display: inline-block;
+    text-align: center;
+}
+
+.icon-score {
+    width: 89px;
+    height: 73px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* ---------------------------------- LISTVIEW ---------------------------------- */
+.ui-listview li .li-text-sub {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 32px;
+}
+
+.ui-listview li.li-has-2line {
+    padding-top: 18px;
+    padding-bottom: 17px;
+    height: 115px;
+}
+
+.ui-listview li.li-has-multiline {
+    padding-top: 6px;
+    padding-bottom: 5px;
+    min-height: 100px;
+}
+
+.ui-listview.ui-snap-listview li.li-has-multiline {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    min-height: 108px;
+    line-height: normal;
+}
+
+.ui-listview li {
+    position: relative;
+}
+
+.ui-listview li.li-has-thumb-left {
+    padding-left: 88px;
+}
+
+.ui-listview.ui-snap-listview li.li-has-thumb-left{
+    padding: 27px 40px 21px 102px;
+}
+
+.ui-listview li img {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate3d(0, -50%, 0);
+    width: 56px;
+    height: 56px;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.ui-listview li.li-has-thumb-left img {
+    border-radius: 50%;
+}
+
+.ui-listview li.li-has-thumb-left img {
+    left: 16px;
+}
+
+.ui-listview.ui-snap-listview li.li-has-multiline.li-has-thumb-left {
+    padding-top: 27px;
+}
+
+.ui-listview li.li-has-multiline.li-has-thumb-left {
+    padding-left: 88px;
+    padding-right: 30px;
+    margin-left: 0;
+}
+
+.ui-listview-li li img {
+    height: 56px;
+    width: 56px;
+    background-color: rgb(8, 42, 57);
+}
+
+@media all and (-tizen-geometric-shape: circle) {
+    /* ------------------ LISTVIEW ------------------------ */
+    .ui-listview li img {
+        width: 76px;
+        height: 76px;
+    }
+
+    .ui-listview.ui-snap-listview li.li-has-multiline.li-has-2line-sub {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .ui-listview li.li-has-thumb-left {
+        -webkit-mask-image: none;
+    }
+
+    .ui-listview.ui-snap-listview li.li-has-thumb-left {
+        padding: 17px 30px 17px 100px;
+    }
+
+    .ui-listview li.select {
+        background-color: transparent;
+    }
+
+    .ui-listview.ui-snap-listview li.li-has-multiline.li-has-thumb-left {
+        padding-top: 17px;
+    }
+}

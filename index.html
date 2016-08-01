@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no">    <meta name="description" content="Tizen Wearable Web Basic Template" />
+
+    <title>TizenTalks</title>
+
+	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+    <link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+    <div id="page_main" class="ui-page ui-page-active">
+    	<header class="ui-header">
+            <h2 class="ui-title">Chart Menu</h2>
+        </header>
+        <div class="ui-content">
+            <ul class="ui-listview">
+                <li><a href = "#page-list-game">Game</a></li>
+                <li><a href = "#page-list-life">Life</a></li>
+                <li><a href = "#page-list-education">Education</a></li>
+            </ul>
+        </div>
+    </div>
+
+	<div id="page-list-game" class="ui-page">
+ 		<header class="ui-header">
+        	<h2 class="ui-title">게임</h2>
+    	</header>
+    	<div class="ui-content">
+        	<ul id="ui-list-game" class="ui-listview">
+        	</ul>
+    	</div>
+	</div>
+ 
+	<div id="page-list-life" class="ui-page">
+ 		<header class="ui-header">
+        	<h2 class="ui-title">생활/위치</h2>
+    	</header>
+    	<div class="ui-content">
+        	<ul id="ui-list-life" class="ui-listview">
+        	</ul>
+    	</div>
+	</div>
+ 
+	<div id="page-list-education" class="ui-page">
+ 		<header class="ui-header">
+ 			<h2 class="ui-title">교육</h2>
+ 		</header>
+ 		<div class="ui-content">
+ 			<ul id="ui-list-life" class="ui-listview">
+ 			</ul>
+ 		</div>
+	</div>
+	
+	<div id="page-detail" class="ui-page">
+    <header class="ui-header">
+        <div id="title-detail" class="ui-title"></div>
+    </header>
+    <div class="ui-content">
+        <ul id="ui-list-detail" class="ui-listview">
+        </ul>
+    </div>
+</div>
+    
+    <script src="lib/tau/wearable/js/tau.min.js"></script>
+    <script src="js/tau-helper.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
